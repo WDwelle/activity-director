@@ -1,0 +1,47 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env
+.env.*
+
+# macOS
+.DS_Store
+
+# VSCode
+.vscode/
+
+# Pytest / test cache
+.pytest_cache/
+*.cover
+.coverage
+htmlcov/
+
+# Logs
+*.log
+
+# Python distribution artifacts
+build/
+dist/
+*.egg-info/
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Cache files
+.cache/
+.mypy_cache/
+.pdm.toml
+pdm.lock
+
+# IDEs
+.idea/
+*.swp
+
+# LangChain output (optional)
+*.jsonl
+*.db
+*.sqlite
